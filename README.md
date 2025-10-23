@@ -15,6 +15,11 @@ Archive predecessor → github.com/Chloe-72/Personal-GasLab-72
 |-----------|---------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------------------------|
 | Leave.sol | Sepolia | [0xce857be75339f0701fce0717bc8816a7ec6006b5](https://sepolia.etherscan.io/address/0xce857be75339f0701fce0717bc8816a7ec6006b5) | [0x52ef824ba40ab59fbf21a4ff5ed2b5ef73b259cabc4413bc161cfc7eeb54b18c](https://sepolia.etherscan.io/tx/0x52ef824ba40ab59fbf21a4ff5ed2b5ef73b259cabc4413bc161cfc7eeb54b18c) | `0xc470cd1694314a0f1e448bc568b5c1b9b68c0075ee4c5666840f72679db1e280` |
 
+## CTF Track (alive-hash continuous)
+| Day | Platform | Level | Chain | Short Hash | URL |
+|----|----------|-------|--------|------------|-----|
+| 01 | Ethernaut | Fallback | Sepolia | 0x486c2...c917 | [txn](https://sepolia.etherscan.io/tx/0x486c2...c917) |
+
 **Truth-source:** `lifecycle/final/&lt;contract&gt;.sol`  
 **No proxy, no delegatecall; selfdestruct only if explicitly listed in table above.**
 
