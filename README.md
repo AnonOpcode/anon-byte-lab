@@ -1,40 +1,23 @@
 # anon-byte-lab
-Solidity R&amp;D. Testnet only. No mainnet risk, no transferable token, no transferable value. Gas &amp; invariant focus.
-Archive predecessor → github.com/Chloe-72/Personal-GasLab-72
+&gt; Sepolia-only CTF logbook | Ethernaut → DVD → Paradigm  
+&gt; 72 h max silence | 0.1 ETH burn on-chain | No mainnet, no token, no value.  
+&gt; Predecessor repo **archived** → activity moved **here** (same burn rule, no token, no mainnet).
 
-# anon-byte-lab | Anti-Fragile Protocol
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![Foundry](https://img.shields.io/badge/built%20with-foundry-ff0420.svg)](https://foundry.paradigm.xyz)
-[![Slither](https://img.shields.io/badge/static%20analysis-slither-50fa7b.svg)](https://github.com/crytic/slither)
+## Verified Progress (short-hash + URL)
+| Day | Platform | Level | Chain | Short Hash | Txn |
+|----:|----------|--------|--------|------------|-----|
+| 00 | Ethernaut | Instance | Sepolia | `0x69c1517` | [view](https://sepolia.etherscan.io/tx/0x69c1517b4d6e0f27dc4f9e0908b1a1a11f877ef8f36f8cdb808b4957818eba70) |
 
-&gt; Solidity R&D · Testnet only · No transferable token · No mainnet risk  
-&gt; Predecessor archived: [Personal-GasLab-72](https://github.com/Chloe-72/Personal-GasLab-72)
+## Repo Structure (source-first, immutable)
+lifecycle/final/   ← byte-to-byte match on-chain
+lifecycle/draft/   ← WIP, may be discarded
+reviews/           ← self audit notes (md + pdf)
+src/               ← symlink → lifecycle/final
+test/              ← invariant + unit (anvil fork)
+scripts/           ← deploy & verify one-liner
+audits/            ← third-party reports (when ready)
 
-## Canonical Source (immutable)
-| Contract  | Network | Address                                                                 | Tx Hash                                                                                                                       | Bytecode Hash (keccak256)                                                                 |
-|-----------|---------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| Leave.sol | Sepolia | [0xce857be75339f0701fce0717bc8816a7ec6006b5](https://sepolia.etherscan.io/address/0xce857be75339f0701fce0717bc8816a7ec6006b5) | [0x52ef824ba40ab59fbf21a4ff5ed2b5ef73b259cabc4413bc161cfc7eeb54b18c](https://sepolia.etherscan.io/tx/0x52ef824ba40ab59fbf21a4ff5ed2b5ef73b259cabc4413bc161cfc7eeb54b18c) | `0xc470cd1694314a0f1e448bc568b5c1b9b68c0075ee4c5666840f72679db1e280` |
-
-## CTF Track (alive-hash continuous)
-| Day | Platform | Level | Chain | Short Hash | URL |
-|----|----------|-------|--------|------------|-----|
-| 01 | Ethernaut | Fallback | Sepolia | 0x486c2...c917 | [txn](https://sepolia.etherscan.io/tx/0x486c2...c917) |
-
-**Truth-source:** `lifecycle/final/&lt;contract&gt;.sol`  
-**No proxy, no delegatecall; selfdestruct only if explicitly listed in table above.**
-
-## Repo Structure
-anti-fragile-protocol/
-├─ lifecycle/
-│  ├─ drafts/          # early iterations
-│  ├─ final/           # byte-to-byte match with on-chain
-│  └─ reviews/         # self & external review notes
-├─ src/                # symlinks → lifecycle/final (forge root)
-├─ test/               # invariant + unit (local anvil)
-├─ scripts/            # deploy & verify
-└─ audits/             # third-party PDFs (when ready)
-
-## Quickstart
+## Quickstart (testnet only)
 ```bash
 # install
 forge install
@@ -46,10 +29,11 @@ forge test
 # static analysis
 slither . --fail-high --ignore-compile
 
-Risk Disclaimer
-Testnet only; no mainnet deployment endorsed by this repo.
-No transferable token or value; gas-research focus.
-Bytecode hashes are keccak256(bytecode) after solc optimisation.
-For immutable guarantee, verify exact hash above; any diff → new file + new row.
+Risk & Disclaimer
+No mainnet deployment endorsed by this repository.
+No transferable token or monetary value involved.
+Bytecode hash in table is keccak256(runtime) after solc optimisation.
+Any diff → new file + new row; no proxy, no delegate-call.
+
 License
 MIT — see LICENSE
