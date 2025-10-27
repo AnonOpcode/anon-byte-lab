@@ -7,7 +7,7 @@
 ## Verified Progress (short-hash + URL)
 | Day | Platform | Level | Chain | Short Hash | Txn |
 |----:|----------|--------|--------|------------|-----|
-| 00 | Ethernaut | Instance | Sepolia | `0x69c1517` | [view](https://sepolia.etherscan.io/tx/0x69c1517b4d6e0f27dc4f9e0908b1a1a11f877ef8f36f8cdb808b4957818eba70) |
+| 00 | Ethernaut | Instance | Sepolia | `0x486c206` | [view](https://sepolia.etherscan.io/tx/0x486c2064880165979fc5412c1deb1e4ac33e0e5f7516cbf685ed4947c9175bd6) |
 | 01 | Ethernaut | Fallback | Sepolia | `0xce20c9e` | [view](https://sepolia.etherscan.io/tx/0xce20c9efcd810fbd1e0def37fd24c42be9e23eca140e7e600a60b3718ef47122) |
 
 ## Repo Structure (source-first, immutable)
