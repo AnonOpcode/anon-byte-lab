@@ -1,7 +1,7 @@
 # anon-byte-lab
 ## Anti-Fragile Commitment
 &gt; Sepolia-only CTF logbook | Ethernaut → DVD → Paradigm  
-&gt; 72 h max silence | 0.1 ETH burn on-chain | No mainnet, no token, no value.  
+&gt; 72 h max silence | 0.1 ETH burn on-chain | No mainnet, no token, no value. 
 &gt; Predecessor repo **archived** → activity moved **here** (same burn rule, no token, no mainnet).
 
 ## Verified Progress (short-hash + URL)
