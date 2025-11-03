@@ -10,7 +10,11 @@
 | 00 | Ethernaut | Hello Ethernaut | Sepolia | `0x486c206` | [view](https://sepolia.etherscan.io/tx/0x486c2064880165979fc5412c1deb1e4ac33e0e5f7516cbf685ed4947c9175bd6) |
 | 01 | Ethernaut | Fallback | Sepolia | `0xce20c9e` | [view](https://sepolia.etherscan.io/tx/0xce20c9efcd810fbd1e0def37fd24c42be9e23eca140e7e600a60b3718ef47122) |
 | 02 | Ethernaut | Fallout  | Sepolia | `0x7888476` | [view](https://sepolia.etherscan.io/tx/0x7888476ef2158c0b9053a69a67ec40691804a44998a1032d07f284b976c5d8a6) |
+| 03 | Ethernaut | Coin Flip | Sepolia | `0xa5420b8` | [view](https://sepolia.etherscan.io/tx/0xa5420b876b0079110bc2a789da3fd876f5f8a6099f077fe65b303b9907fcff6b) |
 | 04 | Ethernaut | Telephone | Sepolia | `0xfbad6e7` | [view](https://sepolia.etherscan.io/tx/0xfbad6e7505b2305aa1ac9c1f476053317b8f55df81562dcc0798e89813519b72) |
+| 05 | Ethernaut | Delegation | Sepolia | `0xca25846` | [view](https://sepolia.etherscan.io/tx/0xca258467236118762743c1375fbf2a50559bac162862695fdf3b404773a35d19) |
+
+
 ## Repo Structure (source-first, immutable)
 lifecycle/final/   ← byte-to-byte match on-chain
 lifecycle/draft/   ← WIP, may be discarded
