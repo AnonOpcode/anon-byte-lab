@@ -12,6 +12,7 @@
 | 02 | Ethernaut | Fallout  | Sepolia | `0x7888476` | [view](https://sepolia.etherscan.io/tx/0x7888476ef2158c0b9053a69a67ec40691804a44998a1032d07f284b976c5d8a6) |
 | 03 | Ethernaut | Coin Flip | Sepolia | `0xa5420b8` | [view](https://sepolia.etherscan.io/tx/0xa5420b876b0079110bc2a789da3fd876f5f8a6099f077fe65b303b9907fcff6b) |
 | 04 | Ethernaut | Telephone | Sepolia | `0xfbad6e7` | [view](https://sepolia.etherscan.io/tx/0xfbad6e7505b2305aa1ac9c1f476053317b8f55df81562dcc0798e89813519b72) |
+| 05 | Ethernaut | Token | Sepolia | `0xf31d823` | [view](https://sepolia.etherscan.io/tx/0xf31d8238a01eed020d6f6f21eddeacd90b419ff5024ada0a9e7037cd307483af) |
 | 06 | Ethernaut | Delegation | Sepolia | `0x1700b5a` | [view](https://sepolia.etherscan.io/tx/0x1700b5a1bb7b4afc0c15d75c463a0465a2ab795be27e0eae22c2f6e83d340555) |
 
 
