@@ -16,6 +16,7 @@
 | 06 | Ethernaut | Delegation | Sepolia | `0x1700b5a` | [view](https://sepolia.etherscan.io/tx/0x1700b5a1bb7b4afc0c15d75c463a0465a2ab795be27e0eae22c2f6e83d340555) |
 | 08 | Ethernaut | Vault | Sepolia | `0x4a984b5` | [view](https://sepolia.etherscan.io/tx/0x4a984b5a26e7ff8a221f2cb45d7c89933969e55a43d84c3dabda7151d3a1e733) |
 | 09 | Ethernaut | King | Sepolia | `0x6fc8a07` | [view](https://sepolia.etherscan.io/tx/0x6fc8a0757d32db3dcea37dd16a2aab080b06e6a0dd44c1cf04e044d8bff663bf) |
+| 11 | Ethernaut | Elevator | Sepolia | `0x598ff31` | [view](https://sepolia.etherscan.io/tx/0x598ff3183df229824c5a9650ce92c60e2a721d7c810dd925bdec45578d91f67a) |
 
 ## Repo Structure (source-first, immutable)
 lifecycle/final/   ← byte-to-byte match on-chain
