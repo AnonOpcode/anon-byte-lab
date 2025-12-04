@@ -21,6 +21,7 @@
 | 21 | Ethernaut | Shop | Sepolia | `0x5a101cd` | [view](https://sepolia.etherscan.io/tx/0x5a101cd5563609def38641c0137e2712bc1fd3d64e799a8f536ca9bd3839491a) |
 | 22 | Ethernaut | Dex | Sepolia | `0x7cd069d` | [view](https://sepolia.etherscan.io/tx/0x7cd069d8ec834fe75186d935091ceb7f0a9b36f9ad81f6d010d96e09c123fa93) |
 | 23 | Ethernaut | Dex2 | Sepolia | `0xf399bb6` | [view](https://sepolia.etherscan.io/tx/0xf399bb6ceacdb9fb2182065a289373957f3bf82db7ccb1585b032274f310903b) |
+| 26 | Ethernaut | DoubleEntryPoint | Sepolia | `0x8426860` | [view](https://sepolia.etherscan.io/tx/0x8426860ac89ee78e99d65c94d7d5543f4f1dd408a0b8d010d0cae475b8b9723e) |
 ## Repo Structure (source-first, immutable)
 lifecycle/final/   ← byte-to-byte match on-chain
 lifecycle/draft/   ← WIP, may be discarded
