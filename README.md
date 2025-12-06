@@ -18,6 +18,7 @@
 | 09 | Ethernaut | King | Sepolia | `0x6fc8a07` | [view](https://sepolia.etherscan.io/tx/0x6fc8a0757d32db3dcea37dd16a2aab080b06e6a0dd44c1cf04e044d8bff663bf) |
 | 10 | Ethernaut | Re-entrancy | Sepolia | `0x3a0f6d0` | [view](https://sepolia.etherscan.io/tx/0x3a0f6d04178a31fb51674830df1e2bbe24e5edd08ec3e877703aa3ac891a71b9) |
 | 11 | Ethernaut | Elevator | Sepolia | `0x598ff31` | [view](https://sepolia.etherscan.io/tx/0x598ff3183df229824c5a9650ce92c60e2a721d7c810dd925bdec45578d91f67a) |
+| 15 | Ethernaut | Naught Coin | Sepolia | `0xc7ff3dd` | [view](https://sepolia.etherscan.io/tx/0xc7ff3dd873cd75b10a0e32f4bc356b8d0cd3da8fb639109f5b74b1b7e27441a6) |
 | 21 | Ethernaut | Shop | Sepolia | `0x5a101cd` | [view](https://sepolia.etherscan.io/tx/0x5a101cd5563609def38641c0137e2712bc1fd3d64e799a8f536ca9bd3839491a) |
 | 22 | Ethernaut | Dex | Sepolia | `0x7cd069d` | [view](https://sepolia.etherscan.io/tx/0x7cd069d8ec834fe75186d935091ceb7f0a9b36f9ad81f6d010d96e09c123fa93) |
 | 23 | Ethernaut | Dex2 | Sepolia | `0xf399bb6` | [view](https://sepolia.etherscan.io/tx/0xf399bb6ceacdb9fb2182065a289373957f3bf82db7ccb1585b032274f310903b) |
