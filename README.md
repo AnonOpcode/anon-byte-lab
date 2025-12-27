@@ -26,6 +26,7 @@
 | 16 | Ethernaut | Preservation | Sepolia | `0x618a640` | [view](https://sepolia.etherscan.io/tx/0x618a640392bfc48c2b5e1a952b3d8fe6bf350b9bc9d49894b839e36a31d2e781) |
 | 17 | Ethernaut | Recovery | Sepolia | `0xfb69b1c` | [view](https://sepolia.etherscan.io/tx/0xfb69b1ce929f6dc98636870430e3c6a6dbbc3c86a9043ee259038f6193410537) |
 | 18 | Ethernaut | Magic Number | Sepolia | `0xfcd5408` | [view](https://sepolia.etherscan.io/tx/0xfcd54083680310af7e587afbb6a6e3cc8c6d76d780d9307fccb3aedb4b47c822) |
+| 19 | Ethernaut | Alien Codex | Sepolia | `0x88abc7b` | [view](https://sepolia.etherscan.io/tx/0x88abc7b58f2b3456d537ae8434d6e1d6aaadbc3ae5c80f5b04875149051c4d32) |
 | 21 | Ethernaut | Shop | Sepolia | `0x5a101cd` | [view](https://sepolia.etherscan.io/tx/0x5a101cd5563609def38641c0137e2712bc1fd3d64e799a8f536ca9bd3839491a) |
 | 22 | Ethernaut | Dex | Sepolia | `0x7cd069d` | [view](https://sepolia.etherscan.io/tx/0x7cd069d8ec834fe75186d935091ceb7f0a9b36f9ad81f6d010d96e09c123fa93) |
 | 23 | Ethernaut | Dex2 | Sepolia | `0xf399bb6` | [view](https://sepolia.etherscan.io/tx/0xf399bb6ceacdb9fb2182065a289373957f3bf82db7ccb1585b032274f310903b) |
