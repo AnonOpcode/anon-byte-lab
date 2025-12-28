@@ -22,7 +22,7 @@
 | 12 | Ethernaut | Privacy | Sepolia | `0xd13a65e` | [view](https://sepolia.etherscan.io/tx/0xd13a65ea1ae30881a9528bb8b10e58ea13dc96c8f5e3ff93845cf94a8aabda2d) |
 | 13 | Ethernaut | Gatekeeper One | Sepolia | `0xd693b6e` | [view](https://sepolia.etherscan.io/tx/0xd693b6e159686c01c7672b1e969da7cdd33815f885528f3b751b5922c43a2fa7) | 
 | 14 | Ethernaut | Gatekeeper Two | Sepolia | `0x28e11f1` | [view](https://sepolia.etherscan.io/tx/0x28e11f1e04ca4d1b1f952d6e7940476b78c4acdf0833a2c641fd12cf6a583a6a) | 
-| 15 | Ethernaut | Naught Coin | Sepolia | `0xc7ff3dd` | [view](https://sepolia.etherscan.io/tx/0xc7ff3dd873cd75b10a0e32f4bc356b8d0cd3da8fb639109f5b74b1b7e27441a6) |
+| 15 | Ethernaut | Naught Coin | Sepolia | `0xc7ff3dd` | [view](https://sepolia.etherscan.io/tx/0xc7ff3dd873cd75b10a0e32f4bc356b8d0cd3da8fb639109f5b74b1b7e27441a6) | 
 | 16 | Ethernaut | Preservation | Sepolia | `0x618a640` | [view](https://sepolia.etherscan.io/tx/0x618a640392bfc48c2b5e1a952b3d8fe6bf350b9bc9d49894b839e36a31d2e781) |
 | 17 | Ethernaut | Recovery | Sepolia | `0xfb69b1c` | [view](https://sepolia.etherscan.io/tx/0xfb69b1ce929f6dc98636870430e3c6a6dbbc3c86a9043ee259038f6193410537) |
 | 18 | Ethernaut | Magic Number | Sepolia | `0xfcd5408` | [view](https://sepolia.etherscan.io/tx/0xfcd54083680310af7e587afbb6a6e3cc8c6d76d780d9307fccb3aedb4b47c822) |
