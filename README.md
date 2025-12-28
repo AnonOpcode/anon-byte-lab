@@ -4,7 +4,7 @@
 &gt; 72 h max silence | 0.1 ETH burn on-chain | No mainnet, no token, no value. 
 &gt; Predecessor repo **archived** → activity moved **here** (same burn rule, no token, no mainnet).
 
-## Verified Progress (short-hash + URL)
+## Verified Progress (short-hash + URL) 
 | Day | Platform | Level | Chain | Short Hash | Txn |
 |----:|----------|--------|--------|------------|-----|
 | 00 | Ethernaut | Hello Ethernaut | Sepolia | `0x486c206` | [view](https://sepolia.etherscan.io/tx/0x486c2064880165979fc5412c1deb1e4ac33e0e5f7516cbf685ed4947c9175bd6) |
