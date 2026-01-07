@@ -32,7 +32,12 @@
 | 22 | Ethernaut | Dex | Sepolia | `0x7cd069d` | [view](https://sepolia.etherscan.io/tx/0x7cd069d8ec834fe75186d935091ceb7f0a9b36f9ad81f6d010d96e09c123fa93) |
 | 23 | Ethernaut | Dex2 | Sepolia | `0xf399bb6` | [view](https://sepolia.etherscan.io/tx/0xf399bb6ceacdb9fb2182065a289373957f3bf82db7ccb1585b032274f310903b) |
 | 24 | Ethernaut | Puzzle Wallet | Sepolia | `0x33d7238` | [view](https://sepolia.etherscan.io/tx/0x33d723894abc1c33229e6749d4a7e3ddfb823f567b6b8c8ce74e43956353a6e5) |
+| 25 | Ethernaut | Motorbike | Sepolia | `0xf678917`[!] | [view](https://sepolia.etherscan.io/tx/0xf678917bb65af23992e7fa7528c3801757b2bf99996a794f8de7a1cc96f43105) |
 | 26 | Ethernaut | DoubleEntryPoint | Sepolia | `0x8426860` | [view](https://sepolia.etherscan.io/tx/0x8426860ac89ee78e99d65c94d7d5543f4f1dd408a0b8d010d0cae475b8b9723e) |
+
+*  **[!] Technical Note for Level 24 (Motorbike)**: The exploit was successfully executed (Internal Trace: SELFDESTRUCT). However, due to EIP-6780 (Dencun Upgrade), contract bytecode is no longer cleared if it's not created in the same transaction. The logic is verified via the provided Tx Hash, though the Ethernaut UI remains "unsolved" due to this protocol change.
+
+
 ## Repo Structure (source-first, immutable)
 lifecycle/final/   ← byte-to-byte match on-chain
 lifecycle/draft/   ← WIP, may be discarded
