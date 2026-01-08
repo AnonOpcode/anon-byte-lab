@@ -35,7 +35,7 @@
 | 25 | Ethernaut | Motorbike | Sepolia | `0xf678917`**[!]** | [view](https://sepolia.etherscan.io/tx/0xf678917bb65af23992e7fa7528c3801757b2bf99996a794f8de7a1cc96f43105) |
 | 26 | Ethernaut | DoubleEntryPoint | Sepolia | `0x8426860` | [view](https://sepolia.etherscan.io/tx/0x8426860ac89ee78e99d65c94d7d5543f4f1dd408a0b8d010d0cae475b8b9723e) |
 
-*  **[!] Technical Note for Level 25 (Motorbike)**: The exploit was successfully executed ([Internal Trace: SELFDESTRUCT](https://sepolia.etherscan.io/tx/0xf678917bb65af23992e7fa7528c3801757b2bf99996a794f8de7a1cc96f43105#internal)). However, due to EIP-6780 (Dencun Upgrade), contract bytecode is no longer cleared if it's not created in the same transaction. The logic is verified via the provided Tx Hash, though the Ethernaut UI remains "unsolved" due to this protocol change.
+*  **[!] Technical Note for Level 25 (Motorbike)**: The exploit was successfully executed ([Internal Trace: SELFDESTRUCT](https://sepolia.etherscan.io/tx/0xf678917bb65af23992e7fa7528c3801757b2bf99996a794f8de7a1cc96f43105#internal)). However, due to EIP-6780 (Dencun Upgrade), contract bytecode is no longer cleared if it's not created in the same transaction. The logic is verified via the provided Tx Hash, though the Ethernaut UI remains "unsolved" due to this protocol change.For detailed execution logs and internal traces, please refer to the [Proof of Exploit](https://github.com/AnonOpcode/anon-byte-lab/tree/main/proofs/ethernaut/level25-motorbike).
 
 
 ## Repo Structure (source-first, immutable)
