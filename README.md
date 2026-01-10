@@ -34,6 +34,11 @@
 | 24 | Ethernaut | Puzzle Wallet | Sepolia | `0x33d7238` | [view](https://sepolia.etherscan.io/tx/0x33d723894abc1c33229e6749d4a7e3ddfb823f567b6b8c8ce74e43956353a6e5) |
 | 25 | Ethernaut | Motorbike | Sepolia | `0xf678917`**[!]** | [view](https://sepolia.etherscan.io/tx/0xf678917bb65af23992e7fa7528c3801757b2bf99996a794f8de7a1cc96f43105) |
 | 26 | Ethernaut | DoubleEntryPoint | Sepolia | `0x8426860` | [view](https://sepolia.etherscan.io/tx/0x8426860ac89ee78e99d65c94d7d5543f4f1dd408a0b8d010d0cae475b8b9723e) |
+| 27 | Ethernaut | Good Samaritan | Sepolia | `0xc6e142f` | [view](https://sepolia.etherscan.io/tx/0xc6e142fb23905ada0928b2d455e4b6c6f0c1b9435cd87d22b574e9340a92fdb5) |
+| 28 | Ethernaut | Gatekeeper Three | Sepolia | `0xbf9f770` | [view](https://sepolia.etherscan.io/tx/0xbf9f7706c7f07661ca4bff4466737c975fd63e47ce7ccebf54055d4321c58ff6) |
+
+
+
 
 *  **[!] Technical Note for Level 25 (Motorbike)**: The exploit was successfully executed ([Internal Trace: SELFDESTRUCT](https://sepolia.etherscan.io/tx/0xf678917bb65af23992e7fa7528c3801757b2bf99996a794f8de7a1cc96f43105#internal)). However, due to EIP-6780 (Dencun Upgrade), contract bytecode is no longer cleared if it's not created in the same transaction. The logic is verified via the provided Tx Hash, though the Ethernaut UI remains "unsolved" due to this protocol change.For detailed execution logs and internal traces, please refer to the [Proof of Exploit](https://github.com/AnonOpcode/anon-byte-lab/tree/main/proofs/ethernaut/level25-motorbike).
 
