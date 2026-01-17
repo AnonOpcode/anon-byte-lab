@@ -36,6 +36,8 @@
 | 26 | Ethernaut | DoubleEntryPoint | Sepolia | `0x8426860` | [view](https://sepolia.etherscan.io/tx/0x8426860ac89ee78e99d65c94d7d5543f4f1dd408a0b8d010d0cae475b8b9723e) |
 | 27 | Ethernaut | Good Samaritan | Sepolia | `0xc6e142f` | [view](https://sepolia.etherscan.io/tx/0xc6e142fb23905ada0928b2d455e4b6c6f0c1b9435cd87d22b574e9340a92fdb5) |
 | 28 | Ethernaut | Gatekeeper Three | Sepolia | `0xbf9f770` | [view](https://sepolia.etherscan.io/tx/0xbf9f7706c7f07661ca4bff4466737c975fd63e47ce7ccebf54055d4321c58ff6) |
+| 28 | Ethernaut | Gatekeeper Three | Sepolia | `0xbf9f770` | [view](https://sepolia.etherscan.io/tx/0xbf9f7706c7f07661ca4bff4466737c975fd63e47ce7ccebf54055d4321c58ff6) |
+| 30 | Ethernaut | Higher Order | Sepolia | `0x51ef8cc` | [view](https://sepolia.etherscan.io/tx/0x51ef8cc3bfccad10d1dd031af8de239a0c8506d45b9e7c171cd67575d45293b1) |
 | 34 | Ethernaut | Bet House | Sepolia | `0xdf5d10d` | [view](https://sepolia.etherscan.io/tx/0xdf5d10d3c4c26d41141bd8a2b4bb576b26b42cf838c402123a988f68f4b0b8a3) |
 
 
