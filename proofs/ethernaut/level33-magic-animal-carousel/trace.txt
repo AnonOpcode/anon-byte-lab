@@ -1,0 +1,66 @@
+[⠃] Solc 0.8.30 finished in 897.09ms
+Compiler run successful!
+Traces:
+  [80509] DirectAttack::run()
+    ├─ [0] VM::startBroadcast()
+    │   └─ ← [Return]
+    ├─ [47528] 0x1aEDD13FDE026Dc0FC5248d94F4839Bb3220B0DD::setAnimalAndSpin("Cat")
+    │   └─ ← [Stop]
+    ├─ [1374] 0x1aEDD13FDE026Dc0FC5248d94F4839Bb3220B0DD::changeAnimal("Cat\0\0\0\0\0\0\0\0\u{1}", 1)
+    │   └─ ← [Stop]
+    ├─ [23628] 0x1aEDD13FDE026Dc0FC5248d94F4839Bb3220B0DD::setAnimalAndSpin("Bird")
+    │   └─ ← [Stop]
+    ├─ [0] VM::stopBroadcast()
+    │   └─ ← [Return]
+    └─ ← [Stop]
+
+
+Script ran successfully.
+
+## Setting up 1 EVM.
+==========================
+Simulated On-chain Traces:
+
+  [47528] 0x1aEDD13FDE026Dc0FC5248d94F4839Bb3220B0DD::setAnimalAndSpin("Cat")
+    └─ ← [Stop]
+
+  [6174] 0x1aEDD13FDE026Dc0FC5248d94F4839Bb3220B0DD::changeAnimal("Cat\0\0\0\0\0\0\0\0\u{1}", 1)
+    └─ ← [Stop]
+
+  [30428] 0x1aEDD13FDE026Dc0FC5248d94F4839Bb3220B0DD::setAnimalAndSpin("Bird")
+    └─ ← [Stop]
+
+
+==========================
+
+Chain 11155111
+
+Estimated gas price: 2.107722371 gwei
+
+Estimated total gas used for script: 207813
+
+Estimated amount required: 0.000438012109084623 ETH
+
+==========================
+
+##### sepolia
+✅  [Success] Hash: 0xe99b68af1a75ce0065f6be11224d3acfafb13dcb869e2ee8f876a8a806887da3
+Block: 10161375
+Paid: 0.000069285323928216 ETH (69036 gas * 1.003611506 gwei)
+
+
+##### sepolia
+✅  [Success] Hash: 0xe75453bd11691070668b3c23633fa72a978de95112705bf6aec42e2039ecea46
+Block: 10161378
+Paid: 0.000030063461983008 ETH (27834 gas * 1.080098512 gwei)
+
+
+##### sepolia
+✅  [Success] Hash: 0xd8894f9ec727b70f91954d19f97ad34acb08f5e7451b437a097adc32a3843488
+Block: 10161378
+Paid: 0.000056108957501376 ETH (51948 gas * 1.080098512 gwei)
+
+✅ Sequence #1 on sepolia | Total Paid: 0.0001554577434126 ETH (148818 gas * avg 1.054602843 gwei)
+
+
+==========================
