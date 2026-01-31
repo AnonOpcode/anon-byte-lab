@@ -39,6 +39,7 @@
 | 30 | Ethernaut | Higher Order | Sepolia | `0x51ef8cc` | [view](https://sepolia.etherscan.io/tx/0x51ef8cc3bfccad10d1dd031af8de239a0c8506d45b9e7c171cd67575d45293b1) |
 | 31 | Ethernaut | Stake | Sepolia | `0xa2e28e1` | [view](https://sepolia.etherscan.io/tx/0xa2e28e15e7cc5e27aed0b040498ba53b32033921a85bb66645102a2107ed495a) |
 | 32 | Ethernaut | Impersonator | Sepolia | `0x5bc0003` | [view](https://sepolia.etherscan.io/tx/0x5bc000305ae8888e4dad0a635fff739a1ecf50b3e7bb63761e48a444ba71fc6d) |
+| 33 | Ethernaut | Magic Animal Carousel | Sepolia | `0xd8894f9`**[!]**  | [view](https://sepolia.etherscan.io/tx/0xd8894f9ec727b70f91954d19f97ad34acb08f5e7451b437a097adc32a3843488) |
 | 34 | Ethernaut | Bet House | Sepolia | `0xdf5d10d` | [view](https://sepolia.etherscan.io/tx/0xdf5d10d3c4c26d41141bd8a2b4bb576b26b42cf838c402123a988f68f4b0b8a3) |
 | 39 | Ethernaut | Forger | Sepolia | `0x13b97fec` | [view](https://sepolia.etherscan.io/tx/0x13b97fec8f2fb962e6b0a1967495171ac812e61bea414576e42b5d30354970d6) |
 
@@ -47,6 +48,8 @@
 
 *  **[!] Technical Note for Level 25 (Motorbike)**: The exploit was successfully executed ([Internal Trace: SELFDESTRUCT](https://sepolia.etherscan.io/tx/0xf678917bb65af23992e7fa7528c3801757b2bf99996a794f8de7a1cc96f43105#internal)). However, due to EIP-6780 (Dencun Upgrade), contract bytecode is no longer cleared if it's not created in the same transaction. The logic is verified via the provided Tx Hash, though the Ethernaut UI remains "unsolved" due to this protocol change.For detailed execution logs and internal traces, please refer to the [Proof of Exploit](https://github.com/AnonOpcode/anon-byte-lab/tree/main/proofs/ethernaut/level25-motorbike).
 
+
+* **[!] Technical Note for Level 29 (MagicAnimalCarousel)**: The exploit was successfully executed via a precision bit-field overwrite (Final Collision Trace). Although the on-chain state confirms that Crate 1 was successfully overwritten by exploiting the 160-bit shift vulnerability in `changeAnimal`, the Ethernaut UI may remain "unsolved" due to the challenge's internal `isSolved()` check potentially relying on legacy Gas cost patterns or specific `currentCrateId` sequences that were disrupted by the Dencun upgrade and subsequent EVM storage pricing changes. The logic is verified via the provided Tx Hash, showing a storage slot reuse instead of a new allocation, with detailed execution logs available in the Proof of Exploit.
 
 ## Repo Structure (source-first, immutable)
 lifecycle/final/   ← byte-to-byte match on-chain
