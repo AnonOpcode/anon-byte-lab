@@ -42,7 +42,7 @@
 | 33 | Ethernaut | Magic Animal Carousel | Sepolia | `0xd8894f9`**[!]**  | [view](https://sepolia.etherscan.io/tx/0xd8894f9ec727b70f91954d19f97ad34acb08f5e7451b437a097adc32a3843488) |
 | 34 | Ethernaut | Bet House | Sepolia | `0xdf5d10d` | [view](https://sepolia.etherscan.io/tx/0xdf5d10d3c4c26d41141bd8a2b4bb576b26b42cf838c402123a988f68f4b0b8a3) |
 | 35 | Ethernaut | Elliptic Token | Sepolia | `0xca4d135` | [view](https://sepolia.etherscan.io/tx/0xca4d135550b8a72ec27c1a98549213d6d15c81ae01a8d207480b41e340953c61) |
-| 36 | Ethernaut | Cashback | Sepolia | `0xdf323571`**[!]** | [view](https://sepolia.etherscan.io/tx/0xdf3235714a86cb1be57ebb8e857d55150114e7e61a231cc5c70f48ac29845964) |
+| 36 | Ethernaut | Cashback | Sepolia | `0xdf32357`**[!]** | [view](https://sepolia.etherscan.io/tx/0xdf3235714a86cb1be57ebb8e857d55150114e7e61a231cc5c70f48ac29845964) |
 | 39 | Ethernaut | Forger | Sepolia | `0x13b97fec` | [view](https://sepolia.etherscan.io/tx/0x13b97fec8f2fb962e6b0a1967495171ac812e61bea414576e42b5d30354970d6) |
 
 
