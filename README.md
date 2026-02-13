@@ -42,6 +42,7 @@
 | 33 | Ethernaut | Magic Animal Carousel | Sepolia | `0xd8894f9`**[!]**  | [view](https://sepolia.etherscan.io/tx/0xd8894f9ec727b70f91954d19f97ad34acb08f5e7451b437a097adc32a3843488) |
 | 34 | Ethernaut | Bet House | Sepolia | `0xdf5d10d` | [view](https://sepolia.etherscan.io/tx/0xdf5d10d3c4c26d41141bd8a2b4bb576b26b42cf838c402123a988f68f4b0b8a3) |
 | 35 | Ethernaut | Elliptic Token | Sepolia | `0xca4d135` | [view](https://sepolia.etherscan.io/tx/0xca4d135550b8a72ec27c1a98549213d6d15c81ae01a8d207480b41e340953c61) |
+| 36 | Ethernaut | Cashback | Sepolia | `0xdf323571`**[!]* | [view](https://sepolia.etherscan.io/tx/0xdf3235714a86cb1be57ebb8e857d55150114e7e61a231cc5c70f48ac29845964) |
 | 39 | Ethernaut | Forger | Sepolia | `0x13b97fec` | [view](https://sepolia.etherscan.io/tx/0x13b97fec8f2fb962e6b0a1967495171ac812e61bea414576e42b5d30354970d6) |
 
 
@@ -51,6 +52,9 @@
 
 
 * **[!] Technical Note for Level 29 (MagicAnimalCarousel)**: The exploit was successfully executed via a precision bit-field overwrite (Final Collision Trace). Although the on-chain state confirms that Crate 1 was successfully overwritten by exploiting the 160-bit shift vulnerability in `changeAnimal`, the Ethernaut UI may remain "unsolved" due to the challenge's internal `isSolved()` check potentially relying on legacy Gas cost patterns or specific `currentCrateId` sequences that were disrupted by the Dencun upgrade and subsequent EVM storage pricing changes. The logic is verified via the provided Tx Hash, showing a storage slot reuse instead of a new allocation, with detailed execution logs available in the [Proof of Exploit](https://github.com/AnonOpcode/anon-byte-lab/tree/main/proofs/ethernaut/level33-magic-animal-carousel).
+
+
+* **[!] Technical Note for Level 36 (Cashback)**: The exploit was successfully executed via Physical Storage Injection (Slot 0: `[0xdf3235](https://sepolia.etherscan.io/tx/0xdf3235714a86cb1be57ebb8e857d55150114e7e61a231cc5c70f48ac29845964)`). By leveraging `EIP-7702` to delegate EOA authority, the logic nonce was forcibly patched to 9999, bypassing the 10,000-transaction barrier. However, due to a Recursive Deadlock in Transient Storage (`EIP-1153`) on Sepolia, the `isUnlocked` state failed to sync during the nested delegation, preventing the final mint. The logic is verified via `cast storage`, though the Ethernaut UI remains "unsolved" due to this protocol-level friction. For detailed execution logs and storage proofs, please refer to the [Proof of Exploit](https://github.com/AnonOpcode/anon-byte-lab/tree/main/proofs/ethernaut/level36-cashback).
 
 ## Repo Structure (source-first, immutable)
 lifecycle/final/   ← byte-to-byte match on-chain
